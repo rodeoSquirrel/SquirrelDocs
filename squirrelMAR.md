@@ -1,5 +1,5 @@
 [//]: # (My Malware Analysis Report - case - Threat/Month)
-# My Malware Analysis Report - Incident 12345 - TrickBot/October
+# Organization Malware Analysis Report - case no - Threat Name/MM-YYYY
 
 [//]: # (Based on https://zeltser.com/media/docs/rating-sheet-threat-reports-info.pdf)
 ### Actionable Information
