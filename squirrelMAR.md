@@ -43,6 +43,7 @@
 
 #### Relevant IOCs
 [//]: # (Create a table and keep them sorted by type)
+
 Observable | Type
 :--- | ---:
 value | SHA256
