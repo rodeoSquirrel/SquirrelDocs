@@ -1,6 +1,6 @@
 [//]: # (My Malware Analysis Report - case - Threat/Month)
-# <p style="text-align: center;">MyOrg Malware Analysis Report</p><p style="text-align: center;">case no - Threat Name/MM-YYYY</p>
-### <p style="text-align: center;">Analysis by rodeoSquirrel</p>
+# <p align="center">MyOrg Malware Analysis Report</p><p style="text-align: center;">case no - Threat Name/MM-YYYY</p>
+### <p align="center">Analysis by rodeoSquirrel</p>
 
 
 [//]: # (Based on https://zeltser.com/media/docs/rating-sheet-threat-reports-info.pdf)
