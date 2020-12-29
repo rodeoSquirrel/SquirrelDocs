@@ -28,7 +28,7 @@ Begin discussing details about the goals the threat is attempting to achieve giv
 about the capabilities themselves will be covered in the next section. You are not looking for a comprehensive
 overview of the actor/threat, just a synopsis of business verticals, geographic regions, goals historically
 observed by activity groups leveraging the observed threat, details about the pace in reaching actions on
-objective, and potential motivations that can be derived(i.e. financial/political/etc) from past campaigns.
+objective, and potential motivations that can be derived, i.e. financial/political/etc, from past campaigns.
 
 ## <p align="center"> **Threat Capabilities** </p>
 [//]: # (What are the threat’s propagation methods?)
@@ -122,5 +122,24 @@ AND (cmdline:*whoami.exe\ /all OR cmdline:*net.exe\ view)))
 ### <p align="center"> Suricata/Snort/Network Rule(s) </p>
 [//]: # (Use inline code blocks)
 ```
-alert http $HOME_NET any -> $EXTERNAL_NET any (msg:\"PowerTrick Task Checkin\"; content:\"POST\"; http_method; content:\"p3=\"; offset:0; depth:3; http_client_body; content:\"p=i\"; http_client_body; content:\"p1=\"; http_client_body; content:\"p2=\"; http_client_body; content:\"p9=\"; http_client_body; classtype:trojan-activity; sid:9000020; rev:1; metadata:author Jason Reaves; reference: url, https://github.com/SentineLabs/PowerTrick/blob/master/IOCs/2020-01-08-powetrick-iocs-vk-misp-json.json;
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:\"PowerTrick Task Checkin\";
+content:\"POST\";
+http_method;
+content:\"p3=\";
+offset:0;
+depth:3;
+http_client_body;
+content:\"p=i\";
+http_client_body;
+content:\"p1=\";
+http_client_body;
+content:\"p2=\";
+http_client_body;
+content:\"p9=\";
+http_client_body;
+classtype:trojan-activity;
+sid:9000020;
+rev:1;
+metadata:author Jason Reaves;
+reference: url, https://github.com/SentineLabs/PowerTrick/blob/master/IOCs/2020-01-08-powetrick-iocs-vk-misp-json.json;
 ```
