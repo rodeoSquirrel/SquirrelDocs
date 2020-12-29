@@ -94,6 +94,7 @@ value | URL+URI
 
 ### <p align="center"> YARA/Endpoint Rule(s) </p>
 [//]: # (Use inline code blocks)
+YARA Rule(s)
 ```
 rule MALW_trickbot_bankBot : Trojan
 {
@@ -121,6 +122,7 @@ AND (cmdline:*whoami.exe\ /all OR cmdline:*net.exe\ view)))
 
 ### <p align="center"> Suricata/Snort/Network Rule(s) </p>
 [//]: # (Use inline code blocks)
+Suricata/Snort Rule(s)
 ```
 alert http $HOME_NET any -> $EXTERNAL_NET any (msg:\"PowerTrick Task Checkin\";
 content:\"POST\";
