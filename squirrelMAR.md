@@ -114,7 +114,7 @@ all of ($str_trick_*)
 ```
 
 [//]: # (Dridex Process Pattern from https://uncoder.io/)
-Behavioral Detection
+Behavioral Rule(s)
 ```
 (cmdline:*svchost.exe\ C:\Users\*Desktop\* OR (parent_name:*svchost.exe*
 AND (cmdline:*whoami.exe\ /all OR cmdline:*net.exe\ view)))
